@@ -86,4 +86,4 @@ function getMousePos(event) {
 }
 ```
 
-![Untitled](JS%E5%9F%BA%E7%A4%8E%E7%AF%87--%E7%9E%AD%E8%A7%A3JS%E7%9A%84clientX%E3%80%81pageX%E3%80%81screenX%E7%AD%89%E6%96%B9%E6%B3%95%E4%BE%86%E7%8D%B2%E5%8F%96%E6%BB%91%E9%BC%A0%E5%9D%90%E6%A8%99%E8%A9%B3%E8%A7%A3%200e3aa810a5fa4948b235ea182e78723c/Untitled%201.png)
+![Untitled](https://segmentfault.com/img/bVbgVPA?w=1366&h=768)
