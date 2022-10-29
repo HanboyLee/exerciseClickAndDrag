@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 1000px;
+                box-sizing: border-box;
+                /* display: flex;
+                align-items: center;
+                justify-content: center; */
+            }
+            .box {
+                position: relative;
+                width: 500px;
+                height: 500px;
+                background: #f00;
+                left: 100px;
+                top: 100px;
+                user-select: none;
+                /* margin: 0 auto; */
+            }
+            .dragBox {
+                position: absolute;
+                top: 30px;
+                left: 20px;
+                width: 100px;
+                height: 100px;
+                background: #00f;
+            }
+            .textarea {
+                position: relative;
+                left: 800px;
+                color: #f00;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="box">
+                <div class="dragBox"></div>
+            </div>
+        </div>
+        <div class="textarea">
+            <pre class="docText"></pre>
+            <pre class="boxText"></pre>
+            <pre class="dragPageText"></pre>
+            <pre class="moveBlueText"></pre>
+        </div>
+        <script defer type="module" src="./index.js"></script>
+    </body>
+</html>
